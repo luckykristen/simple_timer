@@ -1,0 +1,92 @@
+body {
+    background-image: url(timer_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 228, 196, 0.878);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 228, 196, 0.598);
+    height: 100vh;
+}
+
+#timer {
+    align-self: center;
+    font-size: 100px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#controls {
+    align-self: center;
+}
+
+#start, #pause, #reset {
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+#start {
+    color: green;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+#start:hover {
+    background-color: rgba(0, 128, 0, 0.744);
+    color: black;
+    transition-duration: 1s;
+}
+
+#pause {
+    color: red;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+#pause:hover {
+    background-color: rgba(255, 0, 0, 0.746);
+    color: black;
+    transition-duration: 1s;
+}
+
+#reset {
+    color: blue;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgba(0, 0, 255, 0.741);
+    color: black;
+    transition-duration: 1s;
+}
+
+@media all and (max-width: 1000px) {
+    body {
+        background-position: center;
+    }
+}
+
+@media all and (max-width: 800px) {
+    body {
+        background-position: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-position: center;
+    }
+}
+
+
